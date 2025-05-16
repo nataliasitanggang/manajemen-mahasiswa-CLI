@@ -1,0 +1,71 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: "Consolas", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 480px;
+  margin: 40px auto;
+  background: #262d47;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #111;
+  padding: 24px 24px 16px 24px;
+}
+
+.header {
+  background: #2176ff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 6px 6px 0 0;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.cli-box {
+  background: #181c2f;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-bottom: 14px;
+  min-height: 220px;
+  white-space: pre-line;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background: #2176ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #174ea6;
+}
